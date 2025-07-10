@@ -1,4 +1,4 @@
-<h1 align="center">👋 William Soares Costa</h1>
+<h1 align="center"> 👨‍💻 William Soares Costa</h1>
 <h3 align="center">Especialista em Cloud | DevOps | Automação</h3>
 
 <p align="center">
@@ -7,7 +7,7 @@
 
 ---
 
-## 👨‍💻 Sobre mim
+                                            ## 👨‍💻 Sobre mim
 
 Sou um profissional com sólida experiência em **Cloud (AWS e Azure)**, **DevOps**, **Infraestrutura como Código (IaC)** e **automação de ambientes corporativos**. Tenho paixão por construir soluções resilientes, seguras e escaláveis que potencializem a operação e o desenvolvimento das empresas.
 
@@ -15,7 +15,7 @@ Atualmente atuo com ambientes híbridos e 100% cloud, com foco em **Terraform**,
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+                                       ## 🛠️ Tecnologias e Ferramentas
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="50" />
@@ -33,7 +33,7 @@ Atualmente atuo com ambientes híbridos e 100% cloud, com foco em **Terraform**,
 
 ---
 
-- # 🚀 **Projetos em Infraestrutura & DevOps**
+                                         - # 🚀 **Projetos em Infraestrutura & DevOps**
 
 ---
 
