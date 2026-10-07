@@ -63,15 +63,15 @@ dos times sem abrir mão da segurança.
 
 ### Projetos que eu conto com detalhe
 
-| | Projeto | O que mudou |
-|---|---|---|
-| 🔐 | [Da herança ao deploy sem senha](https://williamsoares.com/projetos#esteira-deploy-sem-senha) | 41 módulos Terraform auditados; site no ar em **1m49s** com login na AWS por OIDC |
-| ☸️ | [Backend no EKS com GitOps](https://williamsoares.com/projetos#backend-gitops-argocd) | Argo CD por Terraform; o pipeline não toca no cluster, só no Git |
-| 🐳 | [Imagem Docker de 26 vulnerabilidades para zero](https://williamsoares.com/projetos#imagem-docker-segura) | Multi-stage, npm fora da imagem final e Trivy barrando HIGH/CRITICAL |
-| 🔑 | [Quando o GitHub mudou o login na AWS](https://williamsoares.com/projetos#oidc-ids-imutaveis) | AccessDenied diagnosticado pelo CloudTrail; IDs imutáveis no token |
-| ♻️ | [Um pipeline para vários repositórios](https://williamsoares.com/projetos#workflows-reutilizaveis) | Workflows reutilizáveis e versionados, sem YAML copiado |
+| | Projeto | O que mudou | Código |
+|---|---|---|---|
+| 🔐 | [Da herança ao deploy sem senha](https://williamsoares.com/projetos#esteira-deploy-sem-senha) | 41 módulos Terraform auditados; site no ar em **1m49s** com login na AWS por OIDC | |
+| ☸️ | [Backend no EKS com GitOps](https://williamsoares.com/projetos#backend-gitops-argocd) | Argo CD por Terraform; o pipeline não toca no cluster, só no Git | [repo](https://github.com/WilliamSoaresCosta/gitops-argocd-eks) |
+| 🐳 | [Imagem Docker de 26 vulnerabilidades para zero](https://williamsoares.com/projetos#imagem-docker-segura) | Multi-stage, npm fora da imagem final e Trivy barrando HIGH/CRITICAL | [repo](https://github.com/WilliamSoaresCosta/docker-node-hardened) |
+| 🔑 | [Quando o GitHub mudou o login na AWS](https://williamsoares.com/projetos#oidc-ids-imutaveis) | AccessDenied diagnosticado pelo CloudTrail; IDs imutáveis no token | [repo](https://github.com/WilliamSoaresCosta/github-oidc-aws) |
+| ♻️ | [Um pipeline para vários repositórios](https://williamsoares.com/projetos#workflows-reutilizaveis) | Workflows reutilizáveis e versionados, sem YAML copiado | |
 
-<sub>Todos com código real, prints e o passo a passo em <a href="https://williamsoares.com/projetos">williamsoares.com/projetos</a>.</sub>
+<sub>O passo a passo, com prints, está em <a href="https://williamsoares.com/projetos">williamsoares.com/projetos</a>. Os que têm repo estão abertos aqui no GitHub.</sub>
 
 <details>
 <summary><b>Outras coisas com que já trabalhei</b></summary>
