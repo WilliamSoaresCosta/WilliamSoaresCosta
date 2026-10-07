@@ -1,9 +1,11 @@
-<h1 align="center">William Soares Costa</h1>
-
 <p align="center">
   <a href="https://williamsoares.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=F5B83D&center=true&vCenter=true&width=640&lines=DevOps+Engineer;AWS+%C2%B7+Kubernetes+%C2%B7+Terraform;Deploy+sem+nenhuma+senha+guardada;Se+n%C3%A3o+est%C3%A1+no+Git%2C+n%C3%A3o+deveria+estar+rodando" alt="DevOps Engineer · AWS · Kubernetes · Terraform" />
+    <img src="./assets/banner.svg" alt="Terminal: William Soares Costa, DevOps Engineer. Cloud AWS e Azure, Kubernetes com Argo CD, Terraform e zero senhas no pipeline." width="100%" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=F5B83D&center=true&vCenter=true&width=640&lines=Deploy+sem+nenhuma+senha+guardada;O+pipeline+n%C3%A3o+toca+no+cluster%2C+s%C3%B3+no+Git;Se+n%C3%A3o+est%C3%A1+no+Git%2C+n%C3%A3o+deveria+estar+rodando" alt="Deploy sem nenhuma senha guardada" />
 </p>
 
 <p align="center">
@@ -91,6 +93,20 @@ dos times sem abrir mão da segurança.
 - [O dia em que o OIDC quebrou sozinho](https://williamsoares.com/blog/oidc-quebrou-ids-imutaveis)
 - [26 vulnerabilidades e nenhuma era do meu código](https://williamsoares.com/blog/imagem-docker-26-vulnerabilidades)
 - [Herdei 41 módulos Terraform. Antes de criar, auditei](https://williamsoares.com/blog/auditoria-41-modulos-terraform)
+
+---
+
+### Contribuições
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WilliamSoaresCosta/WilliamSoaresCosta/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WilliamSoaresCosta/WilliamSoaresCosta/output/github-snake.svg" />
+    <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/WilliamSoaresCosta/WilliamSoaresCosta/output/github-snake-dark.svg" />
+  </picture>
+</p>
+
+<p align="center"><sub>Gerada todo dia por um workflow do GitHub Actions neste próprio repositório.</sub></p>
 
 ---
 
