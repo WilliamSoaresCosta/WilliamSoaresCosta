@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="190" viewBox="0 0 860 190" role="img" aria-label="Esteira de deploy: commit, testes, Trivy, ECR, Argo CD e EKS">
+<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="75" y1="0" x2="785" y2="0"><stop offset="0" stop-color="#7cc4ff"/><stop offset="1" stop-color="#6edc92"/></linearGradient>
+<radialGradient id="p"><stop offset="0" stop-color="#ffe2a0"/><stop offset=".55" stop-color="#f5b83d"/><stop offset="1" stop-color="#f5b83d" stop-opacity="0"/></radialGradient></defs>
+<style>
+text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.t{fill:#eef1f7;font-size:14px;font-weight:600}
+.s{fill:#a3adc2;font-size:11.5px}
+.st{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px}
+.hd{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;fill:#a3adc2}
+@keyframes fill{0%{stroke-dashoffset:710}66.7%{stroke-dashoffset:0}90%{stroke-dashoffset:0;opacity:1}97%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes pkt{0%{transform:translateX(0);opacity:0}2%{opacity:1}66.7%{transform:translateX(710px);opacity:1}72%,100%{transform:translateX(710px);opacity:0}}
+@keyframes res{0%,72%{opacity:0}76%,92%{opacity:1}97%,100%{opacity:0}}
+@keyframes led{0%,100%{opacity:1}50%{opacity:.3}}
+.line{stroke:url(#g);stroke-width:3;stroke-dasharray:710;animation:fill 9.0s linear infinite}
+.pkt{animation:pkt 9.0s linear infinite}
+.res{animation:res 9.0s linear infinite}
+.led{animation:led 1.2s ease-in-out infinite}
+@keyframes n0{0%,0.0%{stroke:#2b3754;filter:none}0.6%,13.33%{stroke:#f5b83d}13.93%,92%{stroke:#6edc92}97%,100%{stroke:#2b3754}}
+@keyframes w0{0%,0.0%{opacity:1}0.6%,96%{opacity:0}98%,100%{opacity:1}}
+@keyframes r0{0%,0.0%{opacity:0}0.6%,13.33%{opacity:1}13.93%,100%{opacity:0}}
+@keyframes o0{0%,13.33%{opacity:0}13.93%,92%{opacity:1}96%,100%{opacity:0}}
+.n0{animation:n0 9.0s linear infinite}.w0{animation:w0 9.0s linear infinite}.r0{animation:r0 9.0s linear infinite}.o0{animation:o0 9.0s linear infinite}@keyframes n1{0%,13.33%{stroke:#2b3754;filter:none}13.93%,26.67%{stroke:#f5b83d}27.270000000000003%,92%{stroke:#6edc92}97%,100%{stroke:#2b3754}}
+@keyframes w1{0%,13.33%{opacity:1}13.93%,96%{opacity:0}98%,100%{opacity:1}}
+@keyframes r1{0%,13.33%{opacity:0}13.93%,26.67%{opacity:1}27.270000000000003%,100%{opacity:0}}
+@keyframes o1{0%,26.67%{opacity:0}27.270000000000003%,92%{opacity:1}96%,100%{opacity:0}}
+.n1{animation:n1 9.0s linear infinite}.w1{animation:w1 9.0s linear infinite}.r1{animation:r1 9.0s linear infinite}.o1{animation:o1 9.0s linear infinite}@keyframes n2{0%,26.67%{stroke:#2b3754;filter:none}27.270000000000003%,40.0%{stroke:#f5b83d}40.6%,92%{stroke:#6edc92}97%,100%{stroke:#2b3754}}
+@keyframes w2{0%,26.67%{opacity:1}27.270000000000003%,96%{opacity:0}98%,100%{opacity:1}}
+@keyframes r2{0%,26.67%{opacity:0}27.270000000000003%,40.0%{opacity:1}40.6%,100%{opacity:0}}
+@keyframes o2{0%,40.0%{opacity:0}40.6%,92%{opacity:1}96%,100%{opacity:0}}
+.n2{animation:n2 9.0s linear infinite}.w2{animation:w2 9.0s linear infinite}.r2{animation:r2 9.0s linear infinite}.o2{animation:o2 9.0s linear infinite}@keyframes n3{0%,40.0%{stroke:#2b3754;filter:none}40.6%,53.33%{stroke:#f5b83d}53.93%,92%{stroke:#6edc92}97%,100%{stroke:#2b3754}}
+@keyframes w3{0%,40.0%{opacity:1}40.6%,96%{opacity:0}98%,100%{opacity:1}}
+@keyframes r3{0%,40.0%{opacity:0}40.6%,53.33%{opacity:1}53.93%,100%{opacity:0}}
+@keyframes o3{0%,53.33%{opacity:0}53.93%,92%{opacity:1}96%,100%{opacity:0}}
+.n3{animation:n3 9.0s linear infinite}.w3{animation:w3 9.0s linear infinite}.r3{animation:r3 9.0s linear infinite}.o3{animation:o3 9.0s linear infinite}@keyframes n4{0%,53.33%{stroke:#2b3754;filter:none}53.93%,66.67%{stroke:#f5b83d}67.27%,92%{stroke:#6edc92}97%,100%{stroke:#2b3754}}
+@keyframes w4{0%,53.33%{opacity:1}53.93%,96%{opacity:0}98%,100%{opacity:1}}
+@keyframes r4{0%,53.33%{opacity:0}53.93%,66.67%{opacity:1}67.27%,100%{opacity:0}}
+@keyframes o4{0%,66.67%{opacity:0}67.27%,92%{opacity:1}96%,100%{opacity:0}}
+.n4{animation:n4 9.0s linear infinite}.w4{animation:w4 9.0s linear infinite}.r4{animation:r4 9.0s linear infinite}.o4{animation:o4 9.0s linear infinite}@keyframes n5{0%,66.67%{stroke:#2b3754;filter:none}67.27%,76.67%{stroke:#f5b83d}77.27%,92%{stroke:#6edc92}97%,100%{stroke:#2b3754}}
+@keyframes w5{0%,66.67%{opacity:1}67.27%,96%{opacity:0}98%,100%{opacity:1}}
+@keyframes r5{0%,66.67%{opacity:0}67.27%,76.67%{opacity:1}77.27%,100%{opacity:0}}
+@keyframes o5{0%,76.67%{opacity:0}77.27%,92%{opacity:1}96%,100%{opacity:0}}
+.n5{animation:n5 9.0s linear infinite}.w5{animation:w5 9.0s linear infinite}.r5{animation:r5 9.0s linear infinite}.o5{animation:o5 9.0s linear infinite}</style>
+<rect x="1" y="1" width="858" height="188" rx="18" fill="#121a2c" stroke="#232e46"/>
+<circle class="led" cx="26" cy="24" r="4" fill="#f5b83d"/><text x="38" y="28" class="hd">deploy.yml · develop</text>
+<text x="836" y="28" text-anchor="end" class="hd res" fill="#6edc92" style="fill:#6edc92" opacity="0">✓ no ar em 1m49s</text>
+<line x1="75" y1="70" x2="785" y2="70" stroke="#22304d" stroke-width="3"/>
+<line class="line" x1="75" y1="70" x2="785" y2="70"/>
+<g><rect class="n0" x="51" y="46" width="48" height="48" rx="13" fill="#0c1220" stroke="#2b3754" stroke-width="2"/>
+<text x="75" y="75" text-anchor="middle" class="st" fill="#7cc4ff">01</text>
+<text x="75" y="118" text-anchor="middle" class="t">Commit</text>
+<text x="75" y="135" text-anchor="middle" class="s">push na develop</text>
+<text x="75" y="156" text-anchor="middle" class="st w0" fill="#5d6a86">na fila</text>
+<text x="75" y="156" text-anchor="middle" class="st r0" fill="#f5b83d" opacity="0">rodando…</text>
+<text x="75" y="156" text-anchor="middle" class="st o0" fill="#6edc92" opacity="0">✓ ok</text></g><g><rect class="n1" x="193" y="46" width="48" height="48" rx="13" fill="#0c1220" stroke="#2b3754" stroke-width="2"/>
+<text x="217" y="75" text-anchor="middle" class="st" fill="#7cc4ff">02</text>
+<text x="217" y="118" text-anchor="middle" class="t">Testes</text>
+<text x="217" y="135" text-anchor="middle" class="s">GitHub Actions</text>
+<text x="217" y="156" text-anchor="middle" class="st w1" fill="#5d6a86">na fila</text>
+<text x="217" y="156" text-anchor="middle" class="st r1" fill="#f5b83d" opacity="0">rodando…</text>
+<text x="217" y="156" text-anchor="middle" class="st o1" fill="#6edc92" opacity="0">✓ ok</text></g><g><rect class="n2" x="335" y="46" width="48" height="48" rx="13" fill="#0c1220" stroke="#2b3754" stroke-width="2"/>
+<text x="359" y="75" text-anchor="middle" class="st" fill="#7cc4ff">03</text>
+<text x="359" y="118" text-anchor="middle" class="t">Trivy</text>
+<text x="359" y="135" text-anchor="middle" class="s">0 HIGH/CRITICAL</text>
+<text x="359" y="156" text-anchor="middle" class="st w2" fill="#5d6a86">na fila</text>
+<text x="359" y="156" text-anchor="middle" class="st r2" fill="#f5b83d" opacity="0">rodando…</text>
+<text x="359" y="156" text-anchor="middle" class="st o2" fill="#6edc92" opacity="0">✓ ok</text></g><g><rect class="n3" x="477" y="46" width="48" height="48" rx="13" fill="#0c1220" stroke="#2b3754" stroke-width="2"/>
+<text x="501" y="75" text-anchor="middle" class="st" fill="#7cc4ff">04</text>
+<text x="501" y="118" text-anchor="middle" class="t">ECR</text>
+<text x="501" y="135" text-anchor="middle" class="s">login por OIDC</text>
+<text x="501" y="156" text-anchor="middle" class="st w3" fill="#5d6a86">na fila</text>
+<text x="501" y="156" text-anchor="middle" class="st r3" fill="#f5b83d" opacity="0">rodando…</text>
+<text x="501" y="156" text-anchor="middle" class="st o3" fill="#6edc92" opacity="0">✓ ok</text></g><g><rect class="n4" x="619" y="46" width="48" height="48" rx="13" fill="#0c1220" stroke="#2b3754" stroke-width="2"/>
+<text x="643" y="75" text-anchor="middle" class="st" fill="#7cc4ff">05</text>
+<text x="643" y="118" text-anchor="middle" class="t">Argo CD</text>
+<text x="643" y="135" text-anchor="middle" class="s">sincroniza o Git</text>
+<text x="643" y="156" text-anchor="middle" class="st w4" fill="#5d6a86">na fila</text>
+<text x="643" y="156" text-anchor="middle" class="st r4" fill="#f5b83d" opacity="0">rodando…</text>
+<text x="643" y="156" text-anchor="middle" class="st o4" fill="#6edc92" opacity="0">✓ ok</text></g><g><rect class="n5" x="761" y="46" width="48" height="48" rx="13" fill="#0c1220" stroke="#2b3754" stroke-width="2"/>
+<text x="785" y="75" text-anchor="middle" class="st" fill="#7cc4ff">06</text>
+<text x="785" y="118" text-anchor="middle" class="t">EKS</text>
+<text x="785" y="135" text-anchor="middle" class="s">pods no ar</text>
+<text x="785" y="156" text-anchor="middle" class="st w5" fill="#5d6a86">na fila</text>
+<text x="785" y="156" text-anchor="middle" class="st r5" fill="#f5b83d" opacity="0">rodando…</text>
+<text x="785" y="156" text-anchor="middle" class="st o5" fill="#6edc92" opacity="0">✓ ok</text></g>
+<g class="pkt"><circle cx="75" cy="70" r="11" fill="url(#p)"/><circle cx="75" cy="70" r="4.5" fill="#fff4d6"/></g>
+</svg>
